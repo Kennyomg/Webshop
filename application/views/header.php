@@ -4,4 +4,6 @@
 		<title>MVC framework</title>
 	</head>
 	<body>
-		<p><h3>Dit is een speciale webshop mbv mvc</h3></p>
+		<p><h3>Webshop</h3></p>
+
+

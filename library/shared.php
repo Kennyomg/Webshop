@@ -6,17 +6,17 @@
 		 */
 		 
 		$urlArray = explode('/', $url);
-		var_dump($urlArray);
+		//var_dump($urlArray);
 		$controller = $urlArray[0]; //$controller = users
-		echo $controller;
+		//echo $controller;
 		array_shift($urlArray);
-		var_dump($urlArray);
+		//var_dump($urlArray);
 		$action = $urlArray[0];		//$action = viewall
-		echo $action;
+		//echo $action;
 		array_shift($urlArray);
-		var_dump($urlArray);
+		//var_dump($urlArray);
 		$querystring = $urlArray;	//querystring = array(1, 2, 3)
-		var_dump($querystring);
+		//var_dump($querystring);
 		
 		//Mapnaam voor de controllers
 		$controllerName = $controller; //$controllername = 'users'
